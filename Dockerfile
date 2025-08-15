@@ -1,0 +1,8 @@
+FROM n8nio/n8n:latest
+
+ENV N8N_HOST=0.0.0.0
+ENV N8N_PORT=10000
+ENV NODE_ENV=production
+
+EXPOSE 10000
+CMD ["n8n"]
