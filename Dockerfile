@@ -5,4 +5,4 @@ ENV N8N_PORT=10000
 ENV NODE_ENV=production
 
 EXPOSE 10000
-CMD ["n8n"]
+ENTRYPOINT ["sh", "-c", "n8n"]
