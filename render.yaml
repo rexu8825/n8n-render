@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: n8n
+    env: docker
+    plan: free
+    autoDeploy: true
+    envVars:
+      - key: N8N_EDITOR_BASE_URL
+        value: https://n8n-bvph.onrender.com
