@@ -6,4 +6,4 @@ services:
     autoDeploy: true
     envVars:
       - key: N8N_EDITOR_BASE_URL
-        value: https://n8n-bvph.onrender.com
+        value: https://n8n-render-o8u4.onrender.com
